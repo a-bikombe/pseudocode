@@ -1,0 +1,36 @@
+1.
+if/then/else statement that sets variable y to value 1 if x >= 0
+if x < 0, set y to 2
+
+get value of x
+if x is greater than or equal to 0 then
+    set y to 1
+else
+    set y to 2
+endif
+
+
+
+3.
+get input on current credit card balance, total dollar amount of new purchases, and total amount of all payments
+computes new balance, which includes 8% interest charge on unpaid balance below $100, 12% between $100 and $500, and 18% over $500
+
+get credit card balance
+get new purchases
+get all payments
+
+set new balance to current credit card balance + new purchases - all payments
+
+if new balance is less than $100 then
+    set interest charge to 8%
+else if new balance is greater than or equal to $100 and less than or equal to $500 then
+    set interest charge to 12%
+else
+    set interest charge to 18%
+endif
+
+set new balance to balance * (1 + interest charge)
+
+
+
+4.
